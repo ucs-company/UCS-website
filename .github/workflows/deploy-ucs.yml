@@ -1,0 +1,33 @@
+name: Deploy ultimateconsultancy.services
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: aws
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy to server (rsync)
+        env:
+          SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        run: |
+          echo "$SSH_KEY" > /tmp/ssh_key
+          chmod 600 /tmp/ssh_key
+          ssh -i /tmp/ssh_key -o StrictHostKeyChecking=accept-new ec2-user@13.207.47.116 "sudo chown -R ec2-user:ec2-user /var/www/ucs"
+          rsync -avz --delete -e "ssh -i /tmp/ssh_key -o StrictHostKeyChecking=accept-new" dist/ ec2-user@13.207.47.116:/var/www/ucs/

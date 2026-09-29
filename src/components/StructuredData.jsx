@@ -7,9 +7,9 @@ export default function StructuredData() {
     name: BRAND.name,
     description:
       'In-house software development and outbound telecalling / lead generation services for Indian businesses.',
-    url: '[EDIT canonical URL]',
-    logo: BRAND.logo,
-    image: 'assets/img/og-image.jpg',
+    url: 'https://ultimateconsultancy.services/',
+    logo: 'https://ultimateconsultancy.services/assets/img/UCS%20(1).png',
+    image: 'https://ultimateconsultancy.services/assets/img/og-image.jpg',
     telephone: CONTACT.phoneDisplay,
     email: CONTACT.email,
     priceRange: '[EDIT price range]',
