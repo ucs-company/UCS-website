@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+*.tsbuildinfo
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+devserver.log
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+
+# editor and OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# caches
+.cache/
+.vite/
+coverage/
+
+# Vite local config overrides (kept out so personal settings are not shared)
+vite.config.local.js

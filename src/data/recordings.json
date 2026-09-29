@@ -1,0 +1,233 @@
+[
+  {
+    "slug": "hindi",
+    "label": "Hindi",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Hindi · first-time contact",
+        "src": "assets/audio/hindi/recording-1.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Hindi · no answer from the first attempt",
+        "src": "assets/audio/hindi/recording-2.mp3"
+      },
+      {
+        "label": "Appointment confirmation",
+        "lang": "Hindi · closing the booking",
+        "src": "assets/audio/hindi/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "marathi",
+    "label": "Marathi",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Marathi · first-time contact",
+        "src": "assets/audio/marathi/recording-1.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Marathi · no answer from the first attempt",
+        "src": "assets/audio/marathi/recording-2.mp3"
+      },
+      {
+        "label": "Objection handling",
+        "lang": "Marathi · budget pushback",
+        "src": "assets/audio/marathi/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "bengali",
+    "label": "Bengali",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Bengali · first-time contact",
+        "src": "assets/audio/bengali/recording-1.mp3"
+      },
+      {
+        "label": "Appointment setting",
+        "lang": "Bengali · demo request",
+        "src": "assets/audio/bengali/recording-2.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Bengali · reminder before the meeting",
+        "src": "assets/audio/bengali/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "malayalam",
+    "label": "Malayalam",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Malayalam · first-time contact",
+        "src": "assets/audio/malayalam/recording-1.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Malayalam · second attempt",
+        "src": "assets/audio/malayalam/recording-2.mp3"
+      },
+      {
+        "label": "Appointment confirmation",
+        "lang": "Malayalam · closing the booking",
+        "src": "assets/audio/malayalam/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "punjabi",
+    "label": "Punjabi",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Punjabi · first-time contact",
+        "src": "assets/audio/punjabi/recording-1.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Punjabi · no answer from the first attempt",
+        "src": "assets/audio/punjabi/recording-2.mp3"
+      },
+      {
+        "label": "Objection handling",
+        "lang": "Punjabi · timing objection",
+        "src": "assets/audio/punjabi/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "telugu",
+    "label": "Telugu",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Telugu · first-time contact",
+        "src": "assets/audio/telugu/recording-1.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Telugu · reminder before the meeting",
+        "src": "assets/audio/telugu/recording-2.mp3"
+      },
+      {
+        "label": "Appointment confirmation",
+        "lang": "Telugu · closing the booking",
+        "src": "assets/audio/telugu/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "english",
+    "label": "English",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "English · first-time contact",
+        "src": "assets/audio/english/recording-1.mp3"
+      },
+      {
+        "label": "Discovery call",
+        "lang": "English · needs analysis",
+        "src": "assets/audio/english/recording-2.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "English · meeting reminder",
+        "src": "assets/audio/english/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "gujarati",
+    "label": "Gujarati",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Gujarati · first-time contact",
+        "src": "assets/audio/gujarati/recording-1.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Gujarati · second attempt",
+        "src": "assets/audio/gujarati/recording-2.mp3"
+      },
+      {
+        "label": "Appointment confirmation",
+        "lang": "Gujarati · closing the booking",
+        "src": "assets/audio/gujarati/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "kannada",
+    "label": "Kannada",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Kannada · first-time contact",
+        "src": "assets/audio/kannada/recording-1.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Kannada · reminder before the meeting",
+        "src": "assets/audio/kannada/recording-2.mp3"
+      },
+      {
+        "label": "Appointment setting",
+        "lang": "Kannada · demo request",
+        "src": "assets/audio/kannada/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "odia",
+    "label": "Odia",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Odia · first-time contact",
+        "src": "assets/audio/odia/recording-1.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Odia · second attempt",
+        "src": "assets/audio/odia/recording-2.mp3"
+      },
+      {
+        "label": "Appointment confirmation",
+        "lang": "Odia · closing the booking",
+        "src": "assets/audio/odia/recording-3.mp3"
+      }
+    ]
+  },
+  {
+    "slug": "tamil",
+    "label": "Tamil",
+    "cards": [
+      {
+        "label": "Introductory call",
+        "lang": "Tamil · first-time contact",
+        "src": "assets/audio/tamil/recording-1.mp3"
+      },
+      {
+        "label": "Follow-up call",
+        "lang": "Tamil · no answer from the first attempt",
+        "src": "assets/audio/tamil/recording-2.mp3"
+      },
+      {
+        "label": "Objection handling",
+        "lang": "Tamil · price objection",
+        "src": "assets/audio/tamil/recording-3.mp3"
+      }
+    ]
+  }
+]
